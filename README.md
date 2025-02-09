@@ -48,23 +48,23 @@ An intelligent e-learning platform leveraging AI and gamification to deliver per
 
 | Component          | Technologies                                                                 |
 |--------------------|------------------------------------------------------------------------------|
-| **Frontend**       | HTML5, CSS3, JavaScript ES6+, Chart.js, Webpack                             |
-| **Backend**        | Python 3.10, Django 4.2, Django REST Framework, Celery                      |
-| **Database**       | PostgreSQL 15 (with pgvector extension for embeddings)                      |
+| **Frontend**       | HTML5, CSS3, JavaScript                                                     |
+| **Backend**        | Python 3.10, Django 4.2, Django REST Framework                              |
+| **Database**       | PostgreSQL 15                                                               |
 | **AI/ML**          | Scikit-learn 1.3, Hugging Face Transformers, spaCy 3.7                      |
-| **DevOps**         | Docker 24.0, GitHub Actions, Nginx 1.25, Prometheus, Grafana                |
+| **DevOps**         | Docker 24.0                                                                 |
 | **Security**       | JWT Authentication, OWASP ZAP, Let's Encrypt SSL                            |
 
 ## 📥 Installation
 
 ### Prerequisites
-- Python 3.10+
+<!-- - Python 3.10+
 - PostgreSQL 15
 - Node.js 18.x
 - Redis 7.x
 
 ```bash
-# Clone repository
+Clone repository
 git clone https://github.com/yourusername/eduvate.git
 cd eduvate
 
@@ -95,3 +95,68 @@ python manage.py createsuperuser
 
 # Start development server
 python manage.py runserver
+
+exiting code section
+``` -->
+
+## ⚙️ Configuration
+
+<!-- Create .env file from template:
+```bash
+cp .env.example .env
+```
+Example environment variables:
+```bash
+DEBUG=False
+SECRET_KEY=your-secret-key
+DATABASE_URL=postgres://eduvate_user:strongpassword@localhost:5432/eduvate
+REDIS_URL=redis://localhost:6379/0
+HUGGINGFACE_API_KEY=your-hf-key
+OPENAI_API_KEY=your-openai-key
+``` -->
+
+## 📚 API Documentation
+
+<!-- Explore our REST API endpoints using the Postman Collection.
+Key endpoints include:
+
+Endpoint	Method	Description
+/api/courses/	GET	List all courses
+/api/learning-path/	POST	Generate personalized path
+/api/quizzes/generate/	POST	Create AI-generated quiz
+/api/analytics/	GET	Get user performance metrics
+Full documentation available in API.md. -->
+
+
+## 🤝 Contributing
+
+<!-- We welcome contributions! Please follow these steps:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/amazing-feature)
+
+Commit changes (git commit -m 'Add amazing feature')
+
+Push to branch (git push origin feature/amazing-feature)
+
+Open a Pull Request
+
+See CONTRIBUTING.md for detailed guidelines. -->
+
+
+## 📄 License
+
+<!-- Distributed under the MIT License. See LICENSE for more information. -->
+
+## 🙏 Acknowledgements
+
+
+## 📧 Contact
+Md Mahfuzur Rahman Shanto
+<!-- 📧 mahfuz917.swe@gmail.com -->
+<!-- 💼 LinkedIn Profile
+🌐  Personal Portfolio -->
+
+Proudly developed as part of SE 331 - Software Engineering Design Capstone (February 2025)
+
