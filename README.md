@@ -130,7 +130,7 @@ Full documentation available in API.md. -->
 
 ## 🤝 Contributing
 
-<!-- We welcome contributions! Please follow these steps:
+We welcome contributions! Please follow these steps:
 
 Fork the repository
 
@@ -142,12 +142,12 @@ Push to branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
-See CONTRIBUTING.md for detailed guidelines. -->
+See CONTRIBUTING.md for detailed guidelines.
 
 
 ## 📄 License
 
-<!-- Distributed under the MIT License. See LICENSE for more information. -->
+Distributed under the MIT License. See LICENSE for more information.
 
 ## 🙏 Acknowledgements
 
@@ -159,4 +159,8 @@ Md Mahfuzur Rahman Shanto
 🌐  Personal Portfolio -->
 
 Proudly developed as part of SE 331 - Software Engineering Design Capstone (February 2025)
+Team Members:
+  1. Md Mahfuzur Rahman Shanto (221-35-917 E1)
+  2. Md Fahim Abdullah Danial (221-35-864 D1)
+
 
